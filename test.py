@@ -9,6 +9,9 @@ import errno
 import argparse
 import shutil
 import atexit
+
+import stable_whisper
+from pydub import AudioSegment
 from tensorflow import keras
 import ffmpeg
 import soundfile
@@ -36,6 +39,19 @@ async def recognise(name):
         print("no song")
         return False
     return True
+song = AudioSegment.from_wav("example.wav") #read wav
+song.export("out.wav", parameters=["-ac", "1"])
 
-apikey = 'eXlBfMVRL8qjdkUO7MZBTj9x44Mli-m2fv_aXvyuXC5G'
+apikey = 'eXlBfMVRL8qjdkUO7MZBTj9x44Mli-m2fv_aXvyuX' \
+         ''
 url = 'https://api.us-south.speech-to-text.watson.cloud.ibm.com/instances/74608ed7-0fb6-42d7-8436-c2147b518cc6'
+model = stable_whisper.load_model('small')
+# modified model should run just like the regular model but with additional hyperparameters and extra data in results
+results = model.transcribe('rapp.mp3')
+stab_segments = results['segments']
+first_segment_word_timestamps = stab_segments[0]
+
+for stabs in stab_segments:
+    print(stabs['word_timestamps'])
+    print(stabs['whole_word_timestamps'])
+    print("")
