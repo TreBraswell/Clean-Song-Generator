@@ -67,5 +67,3 @@ Contributions to the Censor Song project are welcome! If you find any issues or 
 ## Contact
 
 If you have any questions, suggestions, or feedback, please feel free to contact [Tre Braswell](mailto:trebraswell@gmail.com).
-```
-
