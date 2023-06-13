@@ -26,7 +26,7 @@ git clone https://github.com/your-username/censor-song.git
 2. Change into the project directory:
 
 ```bash
-cd censor-song
+cd Clean-Song-Generator
 ```
 
 3. Install the required Python dependencies:
@@ -42,7 +42,7 @@ pip install -r requirements.txt
 2. Run the following command to start the Censor Song application:
 
 ```bash
-python main.py
+python CleanSong.py
 ```
 
 3. The GUI window will appear with the following options:
@@ -58,10 +58,6 @@ python main.py
 6. The censoring process will start, and it may take a few minutes to complete. Progress and status will be displayed in the terminal.
 
 7. Once the censoring process finishes, the censored audio file will be saved in the same directory as the original file.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE] file for more information.
 
 ## Contributing
 
