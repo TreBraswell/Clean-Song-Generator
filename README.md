@@ -1,8 +1,5 @@
 # Clean Song Generator
 
-```
-# Censor Song
-
 **Note: This project is currently in progress and not yet complete.**
 
 Censor Song is a Python application that allows you to censor explicit content in a WAV audio file. It provides options to use Shazam for extra timestamps and Audacity for audio editing. The application creates a graphical user interface (GUI) using the Tkinter library for easy interaction.
