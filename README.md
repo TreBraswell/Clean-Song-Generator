@@ -1,5 +1,4 @@
 # Clean Song Generator
-Certainly! Here's an updated version of the README file with statements indicating that the project is still in progress and not yet complete:
 
 ```
 # Censor Song
@@ -62,7 +61,7 @@ python main.py
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+This project is licensed under the MIT License. See the [LICENSE] file for more information.
 
 ## Contributing
 
@@ -74,6 +73,6 @@ Contributions to the Censor Song project are welcome! If you find any issues or 
 
 ## Contact
 
-If you have any questions, suggestions, or feedback, please feel free to contact [Your Name](mailto:your-email@example.com).
+If you have any questions, suggestions, or feedback, please feel free to contact [Your Name](mailto:trebraswell@gmail.com).
 ```
 
