@@ -50,7 +50,7 @@ python main.py
 
 4. Click on the **Press when done** button when you have made your selections.
 
-5. A file dialog will appear. Select the WAV audio file you want to censor.
+5. A file dialog will appear. Select the mp3 audio file you want to censor.
 
 6. The censoring process will start, and it may take a few minutes to complete. Progress and status will be displayed in the terminal.
 
