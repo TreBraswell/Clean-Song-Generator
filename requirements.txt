@@ -1,0 +1,12 @@
+audacity-scripting==0.3.0
+better-profanity==0.7.0
+lhotse==0.1.5
+numpy==1.21.0
+patool==1.12
+pydub==0.26.0
+python-shazam==0.1.7
+pyttsx3==2.90
+shazamio==0.0.6
+spleeter==2.4.0
+tk==0.1.0
+tqdm==4.62.0
